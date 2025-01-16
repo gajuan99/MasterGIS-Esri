@@ -1,3 +1,5 @@
-.parrafo1¨{
+.parrafo1{
     font-style: italic;
+    border: dotted pink;
+    padding: 2%;
 }
