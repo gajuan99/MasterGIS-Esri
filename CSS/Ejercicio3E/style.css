@@ -21,9 +21,7 @@
         border-width: 1px;
         width: 150px;
         align-self: center;
-
     }
-
     & button:hover{
         background-color: #0ff381;
         cursor: pointer;
