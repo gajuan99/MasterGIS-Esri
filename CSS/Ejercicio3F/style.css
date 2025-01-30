@@ -1,0 +1,81 @@
+.opinion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+    & img{
+        width: 120px;
+        height:100px;
+        padding-left: 3px;
+        border-radius: 10%;
+        border: 1px solid;
+    }   
+}
+
+.centro-salud{
+    display: flex;
+    align-items: center;
+
+}
+
+.texto-centro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: rgb(165, 160, 160);
+
+    & h3{
+        margin: 0;
+    }
+
+    & button{
+        padding: 5px;
+        border-radius: 15px;
+        border-width: 1px;
+        
+    }
+    & button:hover{
+        cursor: pointer;
+        background-color:rgb(159, 159, 159) ;
+        color: white;
+        border-color: rgb(159, 159, 159);
+        border-width: 0px;
+    }
+}
+
+.comentarios-nota{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    padding-top: 0px;
+    color: rgb(165, 160, 160);
+    
+    & a{
+        color: rgb(165, 160, 160);
+        text-decoration: none;
+    }
+    & a:hover{
+        cursor: pointer;
+        background-color:rgb(159, 159, 159) ;
+        color: white;
+        border-color: rgb(159, 159, 159);
+        border: 2px solid;
+        border-radius: 50px;
+        padding: 2px;
+    }
+}
+
+#nota{
+    background-color: rgb(173, 170, 170);
+    padding: 10px;
+    border-radius: 15%;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+.num-coment{
+    margin-bottom: 1px;
+}
